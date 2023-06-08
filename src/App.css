@@ -1,0 +1,29 @@
+body {
+  background-color: #F5DF75;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.seePassword {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
