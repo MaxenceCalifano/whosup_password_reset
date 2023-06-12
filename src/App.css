@@ -27,4 +27,5 @@ input {
   display: flex;
   gap: 5px;
   align-items: center;
+  color: #1a1a1a
 }
