@@ -26,7 +26,7 @@ function App() {
       const regex = /^(?=.*[A-Z])(?=.*[\W_]).{8,}$/
 
       if (regex.test(password)) {
-        const { error } = await supabase.auth.updateUser({ password: 'new password' })
+        const { error } = await supabase.auth.updateUser({ password: password })
         if (error) {
           console.log(error)
           setErrorMessage("Une erreur est survenue, veuillez réessayer")
